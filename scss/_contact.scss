@@ -1,0 +1,29 @@
+#contact {
+  &-a {
+    .form-fields {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-bottom: 1rem;
+      .message {
+        grid-column: 1 / span 2;
+        height: 180px;
+      }
+      .btn-dark {
+        grid-column: 1 / span 2;
+      }
+      .input {
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+
+  &-b {
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
